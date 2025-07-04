@@ -1,1 +1,1 @@
-https://aksvass.github.io/rsschool-cv-test/cv
+https://aksvass.github.io/rsschool-cv-test/
