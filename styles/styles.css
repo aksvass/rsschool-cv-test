@@ -1,0 +1,204 @@
+:root {
+  --white: #FAFBFE;
+  --blue: #072A78;
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url('../fonts/GolosText-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "Fragment Mono";
+  src: url('../fonts/FragmentMono-Regular.ttf');
+}
+
+body {
+  background-color: var(--white);
+  color: var(--blue);
+  font-family: 'Golos Text', Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  gap: 100px;
+  align-items: center;
+}
+
+main,
+footer, header {
+  max-width: 1600px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+.m,
+.s,
+.mono,
+p {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 40px;
+  align-self: stretch;
+}
+
+.m {
+  font-size: 32px;
+}
+
+.s {
+  font-size: 24px;
+}
+
+.mono {
+  font-family: 'Fragment Mono';
+  font-size: 32px;
+}
+
+.nav,
+.about-me-text,
+.skill,
+.code,
+.edu,
+.language,
+.footer {
+  padding: 12px 24px;
+  border: 2px solid var(--blue);
+  border-radius: 12px;
+}
+
+header, main, footer {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: center;
+}
+
+.profile,
+.about-me,
+.skills,
+.code-example,
+.education,
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.pfp {
+  border-radius: 100%;
+}
+
+.skills-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: flex;
+  padding: 12px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+  aspect-ratio: 1/1;
+}
+
+.code {
+  display: flex;
+  align-self: stretch;
+}
+
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.edu {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.language {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.footer p {
+  flex: 1 0 0;
+  text-align: right;
+}
+
