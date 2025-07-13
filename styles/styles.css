@@ -19,19 +19,26 @@ body {
   font-family: 'Golos Text', Verdana, sans-serif;
   display: flex;
   flex-direction: column;
-  padding: 50px 0px;
+  padding: 206px 0px 50px;
   gap: 100px;
   align-items: center;
 }
 
+header,
 main,
-footer, header {
+footer{
   max-width: 1600px;
+  width: 100%;
 }
+
 
 ul {
   list-style: none;
   padding: 0px;
+}
+
+a {
+  color: var(--blue);
 }
 
 h1,
@@ -91,11 +98,14 @@ h3 {
   border-radius: 12px;
 }
 
-header, main, footer {
-  width: 100%;
+header {
+  position: fixed;
+  top: 50px;
+  z-index: 100;
+  background-color: var(--white);
 }
 
-.nav {
+.anchor-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -179,6 +189,7 @@ main {
   display: flex;
   align-items: flex-start;
   gap: 12px;
+  align-items: center;
   align-self: stretch;
 }
 
@@ -201,4 +212,3 @@ main {
   flex: 1 0 0;
   text-align: right;
 }
-

@@ -10,18 +10,20 @@
 
 <body>
   <header>
-    <ul class="nav m">
-      <li>About me</li>
-      <li>Skills</li>
-      <li>Code Example</li>
-      <li>Education</li>
-      <li>Languages</li>
-      <li>Contacts</li>
-    </ul>
+    <nav class="nav">
+      <ul class="anchor-links m">
+        <li><a href="#profile">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code-example">Code Example</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section class="profile">
+    <section class="profile" id="profile">
       <img src="images/pfp.jpg" alt="avatar picture" class="pfp">
 
       <h1>Aksen Vasilev</h1>
@@ -29,7 +31,7 @@
       <h2>Frontend Developer</h2>
     </section>
 
-    <section class="about-me">
+    <section class="about-me" id="about-me">
       <h3>About me</h3>
 
       <p class="m about-me-text">I am 18 years old, I am a student of the Higher School of Economics, educational
@@ -41,7 +43,7 @@
         tens of hours a week in 2024, so I think I can do it again and get to the end of course.</p>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skills">
       <h3>Skills</h3>
 
 
@@ -82,7 +84,7 @@
       </ul>
     </section>
 
-    <section class="code-example">
+    <section class="code-example" id="code-example">
       <h3>Code Example</h3>
 
       <pre class="mono code">
@@ -96,7 +98,7 @@ function evenOrOdd(number) {
 </pre>
     </section>
 
-    <section class="education">
+    <section class="education" id="education">
       <h3>Education</h3>
 
       <ul class="m edu-list">
@@ -117,7 +119,7 @@ function evenOrOdd(number) {
       </ul>
     </section>
 
-    <section class="languages">
+    <section class="languages" id="languages">
       <h3>Languages</h3>
 
       <ul class='language-list'>
@@ -143,18 +145,24 @@ function evenOrOdd(number) {
   </main>
 
   <footer>
-    <div class="footer">
+    <div class="footer" id="contacts">
       <ul class="links m">
         <li class="link">
-          <img src="images/logos/rs-school-logo.svg" alt="RSSchool link">
+          <a href="https://rs.school/courses/javascript-ru">
+            <img src="images/logos/rs-school-logo.svg" alt="RSSchool link">
+          </a>
         </li>
   
         <li class="link">
-          <img src="images/logos/telegram-logo.svg" alt="Telegram link">
+          <a href="https://t.me/aksvass">
+            <img src="images/logos/telegram-logo.svg" alt="Telegram link">
+          </a>
         </li>
   
         <li class="link">
-          <img src="images/logos/github-logo-blue.svg" alt="GitHub link">
+          <a href="https://github.com/aksvass">
+            <img src="images/logos/github-logo-blue.svg" alt="GitHub link">
+          </a>
         </li>
       </ul>
   
